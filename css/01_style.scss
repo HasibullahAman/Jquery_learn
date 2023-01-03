@@ -1,3 +1,12 @@
-*{
-    color: red;
+.container {
+    .mystyl {
+        :hover {
+            font-size: 7rem;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: teal;
+            border: 1rem aqua;
+            border-radius: 20%;
+        }
+    }
 }
+ 

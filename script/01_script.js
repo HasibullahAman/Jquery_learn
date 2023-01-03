@@ -15,6 +15,13 @@
 //     $("h1").text(event.key);
 // })
 
-$("button").on("click",function(){
-    $("h1").css("color","teal")
+// $("button").on("click",function(){
+//     $("h1").css("color","teal")
+// })
+
+
+$("button").on("taggle",function(){
+    // $("h1").hide();
+    // $("h1").show();
+    $("h1").css("color","red");
 })

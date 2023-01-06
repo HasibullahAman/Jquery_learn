@@ -20,8 +20,13 @@
 // })
 
 
-$("button").on("taggle",function(){
+$("button").on("click",function(){
     // $("h1").hide();
     // $("h1").show();
-    $("h1").css("color","red");
-})
+    // $("h1").toggle();
+    // $("h1").animation(opacity)
+    // $("h1").slideToggle();
+    $("h1").slideUp().slideDown().animate({padding: "4rem"})
+
+
+});

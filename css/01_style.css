@@ -1,3 +1,6 @@
+.container .row .text-center {
+  color: purple;
+}
 .container .mystyl :hover {
   font-size: 7rem;
   font-family: Georgia, "Times New Roman", Times, serif;
